@@ -60,6 +60,11 @@ h1, h2, h3, h4, h5, h6 {
   background: #f9f6f0;
 }
 
+div.bsmh img {
+  height: 10%;
+  width: 10%;
+}
+
 .edge--bottom {
   position: relative;
   z-index: 1;
@@ -398,7 +403,7 @@ h1, h2, h3, h4, h5, h6 {
   background-image: -ms-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
 }
 #fh5co-home, #fh5co-home .text-wrap {
-  height: 600px;
+  height: 700px;
 }
 #fh5co-home .text-wrap {
   display: table;
@@ -457,9 +462,9 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-intro {
   position: relative;
   bottom: 0;
-  margin-top: -150px;
+/*  margin-top: -150px;*/
   z-index: 10;
-  padding-bottom: 7em;
+/*  padding-bottom: 7em;*/
 }
 @media screen and (max-width: 768px) {
   #fh5co-intro {
@@ -576,7 +581,7 @@ h1, h2, h3, h4, h5, h6 {
 .watch-video .btn-video {
   display: block;
   font-size: 60px;
-  height: 120px;
+/*  height: 120px;*/
   width: 120px;
   margin: 0 auto;
   border: 2px solid #52d3aa;
@@ -1375,7 +1380,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .row-bottom-padded-lg {
-  padding-bottom: 7em;
+  padding-bottom: 2em;
+  padding-top: 2em;
 }
 @media screen and (max-width: 768px) {
   .row-bottom-padded-lg {

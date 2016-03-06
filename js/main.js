@@ -82,7 +82,12 @@
 		    return false;
 		});
 
-
+      
+      var clock = $('.clock').FlipClock(3600 * 24 * 3, {
+		clockFace: 'DailyCounter',
+		  countdown: true
+	     });
+      
 	};
 
 	// Reflect scrolling in navigation
